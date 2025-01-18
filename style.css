@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+body{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    position: relative;
+    padding: 20px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 100%;
+    background: #dbdada;
+    border-radius: 20px;
+
+}
+
+.logo{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.navlinks li a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    position: relative;
+    transition: 0.3s linear;
+}
+
+.navlinks li a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    background: black;
+    height: 4px;
+    transition: 0.3s linear;
+}
+
+.navlinks li a:hover::before,
+.navlinks li a:hover{
+    color: #fff;
+    width: 100%;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.social .bx{
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    padding: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.hero-section{
+    height: 50vh;
+    position: relative;
+    background-image: url(images/yellow-living-room-interior-with-free-space.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 0 20px;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+}
+
+.content h1{
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.content p{
+    color: black;
+    margin-bottom: 30px;
+}
+
+.content button{
+    min-width: 50%;
+    margin-left: 10px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 50px;
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.content button a{
+    text-decoration: none;
+    color: black;
+}
+
+.content button .bx{
+    position: absolute;
+    font-size: 30px;
+    right: 6px;
+}
+
+.company{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background: #dbdada;
+    border-radius: 20px;
+}
+
+.company p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.company .company1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 30px;
+}
+
+/* crafting start */
+
+.crafting{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.crafting .cont{
+    width: 100%;
+    background: #dbdada;
+    height: 25vh;
+    position: relative;
+    border-radius: 20px;
+    background-image: url(images/armchair-green-living-room-with-copy-space.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.cont .contt{
+    width: 100%;
+    margin: 20px 10px 0 10px;
+
+}
+
+
+.contt h1{
+    max-width: 300px;
+    color: white;
+}
+
+.contt p{
+    margin-top: 10px;
+    max-width: 300px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.contt button{
+    min-width: 40%;
+    margin-left: 10px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 50px;
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    color: black;
+    
+}
+
+.imagg{
+    width: 50%;
+    background-image: url(images/armchair-living-room-with-copy-space.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+    border-radius: 20px;
+}
+
+.imagg{
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 80%;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.conn{
+    display: flex;
+    gap: 30%;
+    width: 100%;
+    margin: 10px;
+    position: relative;
+    margin-top: 160px;
+}
+
+.conn p{
+    width: 100%;
+    padding: 10px 20px;
+    background: #fff;
+    color: black;
+    border-radius: 20px;
+}
+
+.soc{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.soc .bx{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+/* crafting 1 end */
+
+/* crafting 2nd start */
+
+.crafting1{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.crafting1 .cont1{
+    width: 100%;
+    background: #dbdada;
+    height: 25vh;
+    position: relative;
+    border-radius: 20px;
+    background-image: url(images/cozy-home-composition-with-bouquet-blue-chrysanthemums-glass-vase-decorative-word-home.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.cont1 .contt1{
+    width: 100%;
+    margin: 20px 10px 0 10px;
+
+}
+
+
+.contt1 h1{
+    max-width: 300px;
+    color: black;
+}
+
+.contt1 p{
+    margin-top: 10px;
+    max-width: 300px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.contt1 button{
+    min-width: 40%;
+    margin-left: 10px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 50px;
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    color: black;
+    
+}
+
+.imagg1{
+    width: 50%;
+    background-image: url(images/calming-room-design-with-green-plants.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+    border-radius: 20px;
+}
+
+.imagg1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 80%;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.conn1{
+    display: flex;
+    gap: 30%;
+    width: 100%;
+    margin: 10px;
+    position: relative;
+    margin-top: 160px;
+}
+
+.conn1 p{
+    width: 100%;
+    padding: 10px 20px;
+    background: #fff;
+    color: black;
+    border-radius: 20px;
+}
+
+.soc1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.soc1 .bx{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+/* end */
+
+/* hero 2nd section */
+
+.hero-section1{
+    margin-top: 20px;
+    height: 50vh;
+    position: relative;
+    background-image: url(images/living-room-mid-century-style-with-warm-colors-ai-generative.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    border-radius: 20px;
+    text-align: right;
+}
+
+.content1 h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.content1 p{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.content1 button{
+    min-width: 50%;
+    margin-left: 10px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 50px;
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.content1 button a{
+    text-decoration: none;
+    color: black;
+}
+
+.content1 button .bx{
+    position: absolute;
+    font-size: 30px;
+    right: 6px;
+}
